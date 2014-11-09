@@ -4,6 +4,8 @@
         panelContainer: null,
         panels: null,
 
+        panelsX: 3,       
+
         wrapperWidth: window.innerWidth,
         wrapperHeight: window.innerHeight,
         panelWidth: window.innerWidth,
@@ -39,7 +41,7 @@
             carousel.wrapper.style.height = carousel.wrapperHeight + 'px';
 
             carousel.panelContainer.style.width = carousel.panelsX * carousel.panelWidth + 'px';
-            carousel.panelContainer.style.height = carousel.panelsY + 'px';
+            carousel.panelContainer.style.height = carousel.panelHeight + 'px';
 
             for (var i = 0; i < carousel.panels.length; i++){
                 carousel.panels[i].style.width = carousel.panelWidth + 'px';
