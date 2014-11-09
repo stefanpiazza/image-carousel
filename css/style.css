@@ -1,0 +1,51 @@
+#wrapper{
+    position: absolute;
+    overflow: hidden;
+}
+
+#wrapper > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper ul > li{
+    float: left;
+    position: relative;
+}
+
+#panel-1{
+    background-color: blue;
+}
+
+#panel-2{
+    background-color: green;
+}
+
+#panel-3{
+    background-color: red;
+}
+
+#panel-4{
+    background-color: yellow;
+}
+
+#panel-5{
+    background-color: orange;
+}
+
+#panel-6{
+    background-color: purple;
+}
+
+#panel-7{
+    background-color: beige;
+}
+
+#panel-8{
+    background-color: violet;
+}
+
+#panel-9{
+    background-color: black;
+}
