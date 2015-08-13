@@ -1,8 +1,8 @@
 <h1>Image Carousel</h1>
 <h2>Simple 2D Image Carousel for Mobile and Desktop</h2>
-<p>Config:</p>
+<h3>Config:</h3>
 <ul>
-	<p>Parent element set to overflow hidden to hide panels</p>
+	<h4>Parent element set to overflow hidden to hide panels</h4>
 	<li>wrapper: null,</li>
 
 	<p>Unordered list of panels</p>
@@ -28,12 +28,10 @@
 </ul>
 
 <p>Default Element Structure:</p>
-<code>  
-	<div id='wrapper'>
-        <ul id='panel-container'>
-            <li id='panel-1'></li>
-            <li id='panel-2'></li>
-            <li id='panel-3'></li>
-        </ul>
-    </div>
-</code>
+<!-- <div id='wrapper'>
+    <ul id='panel-container'>
+        <li id='panel-1'></li>
+        <li id='panel-2'></li>
+        <li id='panel-3'></li>
+    </ul>
+</div> -->
