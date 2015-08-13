@@ -5,33 +5,35 @@
 	<h4>Parent element set to overflow hidden to hide panels</h4>
 	<li>wrapper: null,</li>
 
-	<p>Unordered list of panels</p>
+	<h4>Unordered list of panels</h4>
     <li>panelContainer: null,</li>
 
-    <p>List elements from panelContainer</p>
+    <h4>List elements from panelContainer</h4>
     <li>panels: null,</li>
 
-    <p>Number of panels in list (Could be refactored to dynamic number)</p>
+    <h4>Number of panels in list (Could be refactored to dynamic number)</h4>
     <li>panelsX: 3,</li>       
 
-    <p>Size of wrapper and each panel</p>
+    <h4>Size of wrapper and each panel</h4>
     <li>wrapperWidth: window.innerWidth,</li>
     <li>wrapperHeight: window.innerHeight,</li>
     <li>panelWidth: window.innerWidth,</li>
     <li>panelHeight: window.innerHeight,</li>
 
-    <p>Toggle for loop functionality</p>
+    <h4>Toggle for loop functionality</h4>
     <li>loop: true,</li>
 
-    <p>Speed of carousel to navigate between each panel</p>
+    <h4>Speed of carousel to navigate between each panel</h4>
     <li>transitionSpeed: 300,</li>
 </ul>
 
-<p>Default Element Structure:</p>
-<!-- <div id='wrapper'>
+<h3>Default Element Structure:</h3>
+<pre><code>
+<div id='wrapper'>
     <ul id='panel-container'>
         <li id='panel-1'></li>
         <li id='panel-2'></li>
         <li id='panel-3'></li>
     </ul>
-</div> -->
+</div>
+</code></pre>
