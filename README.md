@@ -28,8 +28,7 @@
 </ul>
 
 <h3>Default Element Structure:</h3>
-<pre><code>
-&lt;div id='wrapper'&gt;
+<pre><code>&lt;div id='wrapper'&gt;
     &lt;ul id='panel-container'&gt;
         &lt;li id='panel-1'&gt;&lt;/li&gt;
         &lt;li id='panel-2'&gt;&lt;/li&gt;
